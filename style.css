@@ -6,12 +6,6 @@ body {
     font-size:1.5rem;
 }
 
-button {
-    font-family: cursive;
-    background-color: brown;
-    color: white;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    padding: 5px;
-    cursor: pointer;
+h1 {
+    text-align: center;
 }

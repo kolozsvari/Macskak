@@ -2,6 +2,8 @@ function kiir() {
     fetch("https://catfact.ninja/fact")
     .then(adat => adat.json())
     .then(res => {
-        document.getElementById("teny").innerHTML = res["fact"];
+        for (const item of res ["data"]){
+        document.getElementById("teny").innerHTML += `<li>${item ["fact"]}</li>)`;
+        }
     })
 }
